@@ -45,6 +45,29 @@ body {
 .slick-dots li button:before {
   color: blue;
 }
+/* styles.css */
+.slick-slider {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.slick-slide img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  color: #FFF;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+}
 
 
 

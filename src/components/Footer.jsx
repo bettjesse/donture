@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 py-4">
+    <footer className="bg-gray-200 py-4 pt-4" style={{}}>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="text-center md:text-left">
@@ -37,8 +37,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-300 text-center py-2">
-        <p className="text-gray-600">© 2023 DONTURE SYSTEMS. All rights reserved.</p>
+      <div className="bg-blue-600 text-center py-2">
+        <p className="text-gray-100">© 2023 DONTURE SYSTEMS. All rights reserved.</p>
       </div>
     </footer>
   );

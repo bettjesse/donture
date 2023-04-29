@@ -1,6 +1,6 @@
 const Products = ({ products }) => {
   return (
-    <div className="container mx-auto px-4 md:px-0 mt-4">
+    <div className="container mx-auto md:px-2 mt-4  rounded-lg ">
       <h2 className="mb-4 text-center uppercase">Featured Products</h2>
       <p className="text-center font-bold text-3xl">
         Donture systems has a wide range of products that <br />

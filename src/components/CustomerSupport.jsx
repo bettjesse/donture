@@ -5,7 +5,7 @@ const CustomerSupport = () => {
     }
   
     return (
-      <div className="flex items-center justify-center bg-white py-10 rounded-lg  px-4 md:px-0 ">
+      <div className="flex items-center justify-center  py-10 rounded-lg  mx-auto md:px-2 ">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row">
           <div className="lg:w-1/2 lg:pr-10">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Need help? Contact our customer support</h2>
