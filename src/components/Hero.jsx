@@ -1,66 +1,4 @@
-<<<<<<< HEAD
-// const Hero = () => {
-//     return (
-//       <div className="mt-0 flex flex-col md:flex-row items-center justify-center md:justify-between bg-gray-100">
-//         <div className="w-full">
-//           <img src="/images/camera-4782910_1920.jpg" className="w-full" alt="Hero Image" />
-//         </div>
-//         <div className="w-full lg:w-2/3 md:pl-12">
-//           <h1 className="text-4xl font-bold mb-4">Home security systems you can count on</h1>
-//           <p className="mb-6">
-// Fulfill all your home security and automation needs with Donture system. </p>
-//           <button className="px-8 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">Request a Quote</button>
-//         </div>
-=======
-const Hero = () => {
-    return (
-      <div className="mt-0 flex flex-col md:flex-row items-center justify-center md:justify-between bg-gray-100">
-        <div className="w-full">
-          <img src="/images/camera-4782910_1920.jpg" className="w-full" alt="Hero Image" />
-        </div>
-        <div className="w-full lg:w-2/3 md:pl-12">
-          <h1 className="text-4xl font-bold mb-4">Home security systems you can count on</h1>
-          <p className="mb-6">Fulfill all your home security and automation needs with Donture system. </p>
-          <button className="px-8 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">Request a Quote</button>
-        </div>
->>>>>>> 9f6bbe4d491fc3ad9a6c5c863cfd98266c5c2a4a
-      
-//       </div>
-      
-//     )
-//   }
-  
-<<<<<<< HEAD
-//   export default Hero;
-  
 
-// export default function Home() {
-//   return (
-//     <div className="mt-1">
-//       <div className="flex bg-white h-96 container mx-auto">
-//         <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
-//           <div>
-//             <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">
-//             Home security systems you can  <span className="text-blue-600">count on</span>
-//             </h2>
-//             <p className="mt-2 text-sm text-gray-500 md:text-base">
-//             Fulfill all your home security and automation needs with Donture system.
-//             </p>
-//             <div className="flex justify-center lg:justify-start mt-6">
-//             <button className="md:mt-0 mt-2 md:mr-0 mr-2 bg-blue-500 px-5 py-3 rounded-xl text-sm text-white hover:text-white shadow-xl hover:shadow-xl hover:shadow-blue-300/80 shadow-blue-400/40 hover:bg-blue-600">Get quote.</button> 
-//               <button className="md:mt-0 mt-2 ml-2 md:mr-0 mr-2 bg-blue-500 px-5 py-3 rounded-xl text-sm text-white hover:text-white shadow-xl hover:shadow-xl hover:shadow-blue-300/80 shadow-blue-400/40 hover:bg-blue-600">call 01234563</button> 
-//             </div>
-//           </div>
-//         </div>
-//         <div className="hidden lg:block lg:w-1/2" style={{clipPath: "polygon(10% 0, 100% 0%, 100% 100%, 0 100%)"}}>
-//           <img src="/images/camera-4782910_1920.jpg" alt="" className="h-full object-cover" />
-
-//           <div className="h-full  opacity-25"></div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 
 import { FaVideo, FaLock, FaShieldAlt } from 'react-icons/fa';
@@ -114,7 +52,3 @@ individuals and businesses</p>
   )
 }
 export default Hero
-=======
-  export default Hero;
-  
->>>>>>> 9f6bbe4d491fc3ad9a6c5c863cfd98266c5c2a4a
