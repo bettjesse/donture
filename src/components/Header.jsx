@@ -65,29 +65,14 @@ const Header = () => {
           <div className="w-full md:hidden">
             <nav className="flex flex-col items-center pt-4">
               <div className="relative">
-                <a
-                  href="#"
+                <Link to = "/products"
+              
                   className="block text-black hover:text-white mb-2"
-                  onClick={handleProductsDropdownToggle}
+                
                 >
                   Products
-                </a>
-                {productsDropdown && (
-                 
-<div className="bg-gray-200 shadow-lg">
-                    <ul className="py-2">
-                      <li>
-                        <a href="#" className="block px-4 py-2 hover:bg-gray-300">Product 1</a>
-                      </li>
-                      <li>
-                        <a href="#" className="block px-4 py-2 hover:bg-gray-300">Product 2</a>
-                      </li>
-                      <li>
-                        <a href="#" className="block px-4 py-2 hover:bg-gray-300">Product 3</a>
-                      </li>
-                    </ul>
-                  </div>
-                )}
+                </Link>
+             
               </div>
               <a href="/services" className="block text-black hover:text-white mb-2">
                 Services
