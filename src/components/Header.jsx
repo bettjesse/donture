@@ -30,13 +30,13 @@ const Header = () => {
               </Link>
              
             </div>
-            <Link to = ""
+            <Link to = "/services"
              
               className="block text-black hover:text-white mr-12 mt-4 md:mt-0"
             >
               Services
             </Link>
-            <Link to= ""
+            <Link to= "/services"
               
               className="block text-black hover:text-white mr-12 mt-4 md:mt-0"
             >
@@ -74,9 +74,9 @@ const Header = () => {
                 </Link>
              
               </div>
-              <a href="/services" className="block text-black hover:text-white mb-2">
+              <Link to="/services" className="block text-black hover:text-white mb-2">
                 Services
-              </a>
+              </Link>
               <a href="/why-danture" className="block text-black hover:text-white mb-2">
                 Why Danture
               </a>

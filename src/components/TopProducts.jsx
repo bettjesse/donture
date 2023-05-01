@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../index.css';
@@ -11,11 +12,14 @@ const ProductCard = ({ product }) => {
     <div className="px-2">
       <div className="bg-gray-100 rounded-lg overflow-hidden mb-4">
         <div className="p-4">
-          <img src={product.imageUrl} alt={product.name} className="w-full h-auto" style={{ maxWidth: '100%' }} />
+        <Link to={`product/${product.id}`}>
+          <img src={`images/${product.imageUrl}`} alt={product.name} className="w-full h-auto" style={{ maxWidth: '100%' }} />
           <div className="mt-4" style={{ width: '100%' }}>
             <h3 className="text-lg font-bold mb-2">{product.name}</h3>
             <p className="text-gray-700 text-base">{product.description}</p>
+            
           </div>
+          </Link>
         </div>
       </div>
     </div>
@@ -59,24 +63,28 @@ const AllProducts = () => {
 
   const products = [
     {
-      name: "Product 1",
-      description: "This is a description for Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor mattis bibendum.",
-      imageUrl: "https://dummyimage.com/600x400/000/fff"
+      id: 1,
+      name: "CCTV",
+      description: "3D Surveillance dome camera security camera",
+      imageUrl: "dome.png"
     },
     {
-      name: "Product 2",
-      description: "This is a description for Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor mattis bibendum.",
-      imageUrl: "https://dummyimage.com/600x400/000/fff"
-    },
+      id: 2,
+      name: "Smoke Sensor",
+      description: "Advanced smoke Sensor detects smoke and harmful particles",
+      imageUrl: "smoke.png"
+      },
+      {
+        id:3,
+        name: "Access Control",
+        description: "Advanced access control for secure premises entry",
+        imageUrl: "access-control.png"
+        },
     {
-      name: "Product 3",
-      description: "This is a description for Product 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor mattis bibendum.",
-      imageUrl: "https://dummyimage.com/600x400/000/fff"
-    },
-    {
-      name: "Product 4",
-      description: "This is a description for Product 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor mattis bibendum.",
-      imageUrl: "https://dummyimage.com/600x400/000/fff"
+      id:4,
+      name: "Bullet camera",
+      description: "Bullet camera captures high-resolution video for security.",
+      imageUrl: "buttet.png"
     }
 
 
