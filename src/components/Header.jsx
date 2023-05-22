@@ -21,32 +21,38 @@ const Header = () => {
         <div className="w-full md:w-auto md:flex  md:ml-7">
           <nav className="md:flex md:items-center hidden font-bold ">
             <div className="relative">
-              <Link to = "/products"
+              <Link to = "/"
                 
                 className="block text-black hover:text-white mr-12 mt-4 md:mt-0"
                
               >
-                Products
+                Home
               </Link>
              
             </div>
+            <Link to = "/products"
+             
+              className="block text-black hover:text-white mr-12 mt-4 md:mt-0"
+            >
+                  Products
+            </Link>
             <Link to = "/services"
              
               className="block text-black hover:text-white mr-12 mt-4 md:mt-0"
             >
               Services
             </Link>
-            <Link to= "/services"
+            <Link to= "/about"
               
               className="block text-black hover:text-white mr-12 mt-4 md:mt-0"
             >
-              Why Danture
+              About us
             </Link>
           </nav>
         </div>
         <div className="md:ml-auto hidden md:block ">
           <div className="bg-blue-600 px-4 py-2 rounded-lg md:block">
-            <a href="tel:+1234567890" className="text-white font-bold">+1 (234) 567-890</a>
+            <a href="tel:+254758515496" className="text-white font-bold">0758515496</a>
           </div>
         </div>
         <div className="absolute top-7 right-0">
@@ -65,23 +71,26 @@ const Header = () => {
           <div className="w-full md:hidden">
             <nav className="flex flex-col items-center pt-4">
               <div className="relative">
-                <Link to = "/products"
+                <Link to = "/"
               
                   className="block text-black hover:text-white mb-2"
                 
                 >
-                  Products
+                  Home
                 </Link>
              
               </div>
+              <Link to="/products" className="block text-black hover:text-white mb-2">
+                Products
+              </Link>
               <Link to="/services" className="block text-black hover:text-white mb-2">
                 Services
               </Link>
-              <a href="/why-danture" className="block text-black hover:text-white mb-2">
-                Why Danture
+              <a href="/about" className="block text-black hover:text-white mb-2">
+                About us
               </a>
               <div className="bg-blue-600 px-4 py-2 rounded-lg mb-2">
-                <a href="tel:+1234567890" className="text-white font-bold">+1 (234) 567-890</a>
+                <a href="tel:+254758515496" className="text-white font-bold">+254 758515496</a>
               </div>
             </nav>
           </div>

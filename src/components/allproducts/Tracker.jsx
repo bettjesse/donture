@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
           <img src={`images/tracker/${product.imageUrl}`} alt={product.name} className="w-full h-auto" style={{ maxWidth: '100%' }} />
           <div className="mt-4 text-center" style={{ width: '100%' }}>
             <h3 className="text-lg font-bold mb-2">{product.name}</h3>
-            <p className="text-blue-600 text-base underline">See details</p>
+            {/* <p className="text-blue-600 text-base underline">See details</p> */}
           </div>
         </div>
       </div>
